@@ -1,0 +1,15 @@
+[{
+    "Name": "Sailor",
+    "Description": "Code navigation plugin",
+    "Website": "https://github.com/hammad-r-javed/micro-sailor-plugin",
+    "Tags": ["ctag", "navigation"],
+    "Versions": [
+        {
+            "Version": "1.0.0",
+            "Url": "https://github.com/hammad-r-javed/micro-sailor-plugin",
+            "Require": {
+                "micro": ">=2.0.0"
+            }
+        }
+    ]
+}]
