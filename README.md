@@ -1,14 +1,16 @@
 # Sailor
-Sailor is a code navigation plugin for the Micro editor. It gleans information about a codebase using ctag tag files
+Sailor is a code navigation plugin for the Micro editor. It uses ctags
 
 ## Installation
-Install `micro-sailor-plugin` by simply cloning this repo into your `~/.config/micro/plug` directory  
+Install `micro-sailor-plugin` by simply cloning this repo into your `~/.config/micro/plug` directory
 
 ## Features
 Main Focuses:
-* Jumping to definitions in codebase
-    * Press `F12` to jump to function definition
+* Press `F12` to jump to function definition
+* Display function declaration of function being hovered over or selected
 
 Hope to Delvier at some point:
-* Display function definitions
-* Provide more accurate auto-complete optionss
+* Jump Points
+    * Create jump points in any file
+    * Be able to quickly switch between jump points
+* Provide auto-complete options for things like object methods
