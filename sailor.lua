@@ -21,7 +21,7 @@ function init()
         micro.InfoBar():Message("Sailor - Tags file could not be parsed correctly!")
     end
 
-    -- TODO - come up with sname keybinds
+    -- TODO - come up with some sane keybinds
     config.TryBindKey("Ctrl-p", "command:showdec", true)
     -- config.TryBindKey("F9", "command:gotodef", true)
 end
@@ -34,9 +34,9 @@ end
 
 -- NAVIGATION --
 
--- TODO - complete function implementation
+-- TODO - finish function implementation
 function gotoDef(bp, args)
-    micro.InfoBar():Message("'gotoDefinition' Not implemented yet!") -- TODO - Implement function
+    micro.InfoBar():Message("'gotoDefinition' Not implemented yet!") -- TODO - debugging
 end
 
 -- TODO - finish implementing function
@@ -77,7 +77,7 @@ function loadTags()
     return result
 end
 
--- TODO - handle fil IO and invalid data errors
+-- TODO - handle file IO and invalid data errors
 function parseTags(tagFileName)
     local next = next
     local tagFile = lua_io.open(tagFileName, "r")
