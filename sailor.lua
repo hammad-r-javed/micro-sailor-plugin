@@ -54,11 +54,10 @@ function showDec(bp, args)
     end
 end
 
--- CTAGS INTERACTION --
-
 function getDec(text)
+    -- TODO - remove ctags special chars in declaration string
     for index,tag in ipairs(allTags) do
-        if tag["name"] == text then return tag["declaration"] end
+        if tag["name"] == text then return tag["file"] .. " - " .. tag["declaration"] end
     end
 
     return nil
@@ -70,7 +69,7 @@ function loadTags()
     local tagFileName = "sailor-" .. fileType .. "-tagfile.sail"
     if not fileExists(tagFileName) then
         micro.InfoBar():Message("Sailor - Tags Generated")
-        lua_os.execute("ctags -R --languages=" .. fileType .. " -f " .. tagFileName)
+        lua_os.execute("ctags -R --excmd=combine --languages=" .. fileType .. " -f " .. tagFileName)
     end
 
     local result = parseTags(tagFileName)

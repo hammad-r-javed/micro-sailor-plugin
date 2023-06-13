@@ -1,2 +1,5 @@
 .sail
 /IGNORE
+.DS_Store
+.localized
+.sail
