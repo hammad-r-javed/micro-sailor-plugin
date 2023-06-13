@@ -1,5 +1,5 @@
 # Sailor
-Sailor is a code navigation plugin for the Micro editor.
+Sailor is a code navigation plugin for the [Micro editor](https://micro-editor.github.io/)
 
 ## Installation
 ### Requirements
@@ -8,7 +8,7 @@ Sailor is a code navigation plugin for the Micro editor.
 * MacOS or Linux based systems. Right now, in the early stages of the plugin, it does not exhibit the correct behvaiour on Windows.
 
 ### Instructions
-Install `micro-sailor-plugin` by simply cloning this repo into your `~/.config/micro/plug` directory
+Install the Sailor plugin for Micro by simply cloning this repo into your `~/.config/micro/plug` directory
 
 ## Configuration
 **For now** Sailor is best used when working inside a project rather than when reading and editing random files. Sailor creates `.sail` files which it stores ctag generated tags in.
