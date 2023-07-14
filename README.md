@@ -1,6 +1,7 @@
-# Sailor
+# Sailor - WI
 Sailor is a code navigation plugin for the [Micro editor](https://micro-editor.github.io/)
 
+It's in the early stages and I'm using this project to get a bit more familiar with writing plugins for the Micro editor. Sailor is mainly something I made for my own use, but if someone finds it useful then awesome!
 ## Installation
 ### Requirements
 * [universal-ctags](https://github.com/universal-ctags/ctags)
@@ -17,7 +18,7 @@ Add `*.sail` to your gitignore.
 
 ## Features / How to use
 Main Focuses:
-* Press `Ctrl-p` to jump to function definition
+* Press `F12` to jump to function definition
 * Display function declaration of function being hovered over or selected
 
 Hope to Delvier at some point:

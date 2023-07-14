@@ -22,7 +22,7 @@ function init()
     end
 
     -- TODO - come up with some sane keybinds
-    config.TryBindKey("Ctrl-p", "command:showdec", true)
+    config.TryBindKey("F12", "command:showdec", true)
     -- config.TryBindKey("F9", "command:gotodef", true)
 end
 
@@ -36,7 +36,7 @@ end
 
 -- TODO - finish function implementation
 function gotoDef(bp, args)
-    micro.InfoBar():Message("'gotoDefinition' Not implemented yet!") -- TODO - debugging
+    micro.InfoBar():Message("'gotoDefinition' Not implemented yet!") -- TODO - to implement
 end
 
 -- TODO - finish implementing function
