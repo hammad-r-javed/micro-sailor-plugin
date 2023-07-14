@@ -1,7 +1,7 @@
-# Sailor - WI
+# Sailor
 Sailor is a code navigation plugin for the [Micro editor](https://micro-editor.github.io/)
 
-It's in the early stages and I'm using this project to get a bit more familiar with writing plugins for the Micro editor. Sailor is mainly something I made for my own use, but if someone finds it useful then awesome!
+It's in the early stages and a WIP. I'm using this project to get a bit more familiar with writing plugins for the Micro editor. Sailor is mainly something I made for my own use, but if someone finds it useful then awesome!
 ## Installation
 ### Requirements
 * [universal-ctags](https://github.com/universal-ctags/ctags)
